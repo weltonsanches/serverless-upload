@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "uuid": "^3.3.3"
+  },
   "devDependencies": {
     "aws-sdk": "^2.596.0",
     "serverless-apigw-binary": "^0.4.4"
